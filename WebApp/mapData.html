@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>MAPS & DATA</title>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+	<script src="https://www.gstatic.com/firebasejs/3.1.0/firebase.js"></script>
+	<script async defer src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap"></script>
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+	<script type="text/javascript" src="columnChart.js"></script>
+	<script type="text/javascript" src="lineChart.js"></script>
+	<script type="text/javascript" src="mapLoading.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+
+
+	<style>
+		#map{
+			height: 600px;
+			width: 100%;
+		}
+	</style>
+
+</head>
+<body>
+
+	<!--zaglavlje-->
+    <div class="zaglavlje">
+        <div class="zaglavlje-pozadina">
+
+            <header class="zaglavlje-naslov">
+            	<h1 id="naslov">AIR P/SOLUTION</h1>
+            </header>
+            
+            <div class="skrol">
+                <a href="#glavni">POGLEDAJ VISE</a>
+            </div>
+            
+        </div>
+    </div>
+    <!--zaglavlje-->
+
+	<section id="glavni" >
+
+    <h1 style="padding: 20px; text-align: center;">NASE MERNE STANICE</h1>
+	
+	<div id="map"></div>
+
+	<div class="container-fluid">
+		<div class="row text-center">
+			<div class="col-sm-6" id="columnchart_material" style="height: 0px;margin-top: 20px; padding: 10px;"></div>
+			<div class="col-sm-6" id="linechart_material" style="height: 0px;margin-top: 20px;padding: 10px;"></div>
+		</div>
+		<div class="row text-center">
+			<div class="col-sm-12" style="background-color: #96bb7c; color: white; padding: 10px;">Air PSolution | Copyright 2020 © Ivan Rakonjac</div>
+		</div>
+	</div>
+
+	
+
+</body>
+</html>
+

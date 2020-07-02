@@ -1,0 +1,65 @@
+.zaglavlje{
+    min-height: 100vh;
+    background-image: url('https://d1qb7b3qq83mrk.cloudfront.net/wp-content/uploads/2017/12/15070436/illo-Page-1-Smart-City.jpg');
+    background-size:cover;
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-position:center;
+    border-bottom: 5px solid #123;
+    text-align: center;
+    background-position: 50% 50%;
+    
+    
+}
+
+
+.zaglavlje-pozadina{
+    background: rgba(0,0,0, .0);/*za zatamljivanje pozadine*/
+    min-height: 100vh;
+    
+}
+
+.zaglavlje-naslov{
+    padding: 180px 0; 
+}
+
+.zaglavlje-naslov h1{
+    color: white;
+    font-size: 3em;
+    text-transform:uppercase;
+    font-weight: bold;
+    position: relative;
+    background: rgba(0,0,0, .6);
+    padding: 80px;
+    display:inline-block; 
+    border-radius: 25px;
+    border: 2px solid white;
+}
+
+.zaglavlje-naslov p{
+    color: white;
+    font-size: 1.5em;
+}
+
+.zaglavlje-pozadina .skrol{
+    position: relative;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+}
+
+.zaglavlje-pozadina .skrol a{
+    color: white;
+    display: inline-block;
+    padding: 10px 15px;
+    background: rgba(0,0,0, .6);
+    border-radius: 5px;
+    border: 2px solid white;
+    font-weight: bold;
+}
+
+.glavni{
+    padding: 30px;
+}
+
+/*kraj zaglavlja*/
